@@ -16,28 +16,28 @@ $ python3 CaesarCipher.py
 	   'jgnnq'
 	>>> encipher('hello', 4)
 	   'lipps'
- >>> rot('a', 1)
+>>> rot('a', 1)
     'b'
- >>> print(rot('a', 1))
-    	b
-	>>> rot('y', 2)
+>>> print(rot('a', 1))
+     b
+>>> rot('y', 2)
     'a'
-	>>> rot('A', 3)
-   	'D'
-	>>> rot('Y', 3)
-   	'B'
-	>>> rot('!', 4)
-   	'!'
- >>> encipher('xyza', 1)
+>>> rot('A', 3)
+     'D'
+>>> rot('Y', 3)
+     'B'
+>>> rot('!', 4)
+     '!'
+>>> encipher('xyza', 1)
     'yzab'
 >>> encipher('Z A', 2)
     'B C'
 >>> encipher('Caesar cipher? I prefer Caesar salad.', 25)
     'Bzdrzq bhogdq? H oqdedq Bzdrzq rzkzc.'
 >>> decipher('Bzdrzq bhogdq? H oqdedq Bzdrzq rzkzc.')
-   	'Caesar cipher? I prefer Caesar salad.'
+    'Caesar cipher? I prefer Caesar salad.'
 >>> decipher('Hu lkbjhapvu pz doha ylthpuz hmaly dl mvynla lclyfaopun dl ohcl slhyulk.')
-   'An education is what remains after we forget everything we have learned.'
+    'An education is what remains after we forget everything we have learned.'
 >>> decipher('python')
     'eniwdc'
 
