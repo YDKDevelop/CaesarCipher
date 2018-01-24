@@ -10,12 +10,12 @@ The Caesar Cipher is one of the oldest and simplest forms of encrypting a messag
 ### Running (Encipher & Decipher)
 ```
 $ python3 CaesarCipher.py
-	>>> encipher('hello', 1)
-	   'ifmmp'
-	>>> encipher('hello', 2)
-	   'jgnnq'
-	>>> encipher('hello', 4)
-	   'lipps'
+>>> encipher('hello', 1)
+   'ifmmp'
+>>> encipher('hello', 2)
+   'jgnnq'
+>>> encipher('hello', 4)
+   'lipps'
 >>> rot('a', 1)
     'b'
 >>> print(rot('a', 1))
